@@ -1,0 +1,69 @@
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.invisible {
+  display: none;
+}
+
+#controls {
+  position: absolute;
+  top: 2%;
+  width: 100vw;
+  z-index: 2;
+}
+
+#home_bt {
+  position: absolute;
+  left: 8%;
+}
+
+#play_bt {
+  position: absolute;
+  left: 2%;
+}
+
+#reveal_cb_div {
+  position: absolute;
+  right: 8%;
+}
+
+#info_bt {
+  position: absolute;
+  right: 2%;
+}
+
+#main {
+  position: relative;
+  height: 100vh;
+}
+
+#counter-number {
+  background-color: #EEEEEE;
+}
+
+#counter-images {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#main img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-height: 50vh;
+}
+
+body {
+  background-color: #001f3f;
+}
