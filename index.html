@@ -11,10 +11,10 @@
       $(document).ready(function() {
           $("#logo-div").hover(
               function() {
-                  $("#logo-div").animate({height: "40%", width: "auto"});
+                  $("#logo-div").animate({height: "80%", width: "auto"});
               },
               function() {
-                  $("#logo-div").animate({height: "80%", width: "auto"});
+                  $("#logo-div").animate({height: "40%", width: "auto"});
               }
           );
 
@@ -29,6 +29,6 @@
   <link rel="shortcut icon" href="assets/favicon.ico">
 </head>
 <body>
-    <img id="logo-div" src="assets/logo.png" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-height:80%; cursor: pointer;" alt="logo">
+    <img id="logo-div" src="assets/logo.png" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 40%; max-height:80%; cursor: pointer;" alt="logo">
 </body>
 </html>
